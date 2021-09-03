@@ -6,6 +6,7 @@
 	#else
 		#define ORBITAL_API __declspec(dllimport)
 	#endif 
+
 	#else 
 		#error Orbital only works on Windows!
 #endif

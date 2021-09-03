@@ -1,7 +1,13 @@
-namespace Orbital {
-	__declspec(dllimport) void Print();
-}
+#include <Orbital.h>
+#include <iostream>
 
-int main() {
-	Orbital::Print();
+class TestApp : public Orbital::Application {
+public:
+	TestApp() {}
+	~TestApp() {}
+};
+
+
+Orbital::Application* Orbital::CreateApplication() {
+	return new TestApp();
 }

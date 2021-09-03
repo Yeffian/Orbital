@@ -1,2 +1,2 @@
 ﻿  Application.cpp
-C:\Users\aditc\Projects\Orbital\Orbital\src\Orbital\Core.h(10,1): fatal error C1189: #error:  Orbital only works on Windows!
+  Orbital.vcxproj -> C:\Users\aditc\Projects\Orbital\bin\Debug-x64\Orbital\Orbital.dll

@@ -11,5 +11,7 @@ namespace Orbital {
 
 		void RunApplication();
 	};
+
+	Application* CreateApplication();
 }
 

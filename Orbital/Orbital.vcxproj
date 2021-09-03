@@ -11,8 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Orbital.h" />
     <ClInclude Include="src\Orbital\Application.h" />
     <ClInclude Include="src\Orbital\Core.h" />
+    <ClInclude Include="src\Orbital\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Orbital\Application.cpp" />
