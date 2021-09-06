@@ -27,9 +27,15 @@
     <ClInclude Include="src\Orbital\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Orbital\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Orbital\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Orbital\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
