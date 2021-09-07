@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\aditc\Projects\Orbital\Orbital\src\Orbital\Log.h(13,42): warning C4251: 'Orbital::Log::engine_logger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Orbital::Log'
+C:\Users\aditc\Projects\Orbital\Orbital\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\Users\aditc\Projects\Orbital\Orbital\src\Orbital\Log.h(14,42): warning C4251: 'Orbital::Log::client_logger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Orbital::Log'
+C:\Users\aditc\Projects\Orbital\Orbital\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Sandbox.vcxproj -> C:\Users\aditc\Projects\Orbital\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
