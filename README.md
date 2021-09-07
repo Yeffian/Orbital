@@ -12,4 +12,4 @@ If you need to generate a project for a different platform or IDE, you can use t
 # Features
 
 I can't really put much stuff in here as the project is in its earliest stage, but when I do add basic features, 
-this will be updated
+this will be updated for sure!
