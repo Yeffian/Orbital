@@ -3,22 +3,24 @@
 #include "Log.h"
 
 #ifdef ORBIT_PLATFORM_WINDOWS
-extern Orbital::Application* Orbital::CreateApplication();
 
-void InitOrbital() 
-{
-	Orbital::Log::InitLog();
+	extern Orbital::Application* Orbital::CreateApplication();
 
-	ORBIT_ENGINE_INFO("Orbital Engine is running!");
-	ORBIT_ENGINE_INFO("Initalized application.");
-}
+	void InitOrbital() 
+	{
+		Orbital::Log::InitLog();
 
-int main(int argc, char** argv) 
-{
-	InitOrbital();
+		ORBIT_ENGINE_INFO("Orbital Engine is running!");
+		ORBIT_ENGINE_INFO("Initalized application.");
+	}
 
-	auto app = Orbital::CreateApplication();
-	app->RunApplication();
-	delete app;
-}
+	int main(int argc, char** argv) 
+	{
+		InitOrbital();
+
+		auto app = Orbital::CreateApplication();
+		app->RunApplication();
+		delete app;
+	}
+
 #endif

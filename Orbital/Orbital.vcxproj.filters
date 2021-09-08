@@ -19,6 +19,9 @@
     <ClInclude Include="src\Orbital\Log.h">
       <Filter>Orbital</Filter>
     </ClInclude>
+    <ClInclude Include="src\Orbital\Events\Event.h" />
+    <ClInclude Include="src\Orbital\Events\ApplicationEvents.h" />
+    <ClInclude Include="src\Orbital\Events\KeyEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Orbital\Application.cpp">
@@ -27,5 +30,6 @@
     <ClCompile Include="src\Orbital\Log.cpp">
       <Filter>Orbital</Filter>
     </ClCompile>
+    <ClCompile Include="src\Orbital\Events\MouseEvents.h" />
   </ItemGroup>
 </Project>
