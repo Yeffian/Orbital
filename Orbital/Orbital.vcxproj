@@ -150,11 +150,11 @@
     <ClInclude Include="src\Orbital\Events\ApplicationEvents.h" />
     <ClInclude Include="src\Orbital\Events\Event.h" />
     <ClInclude Include="src\Orbital\Events\KeyEvent.h" />
+    <ClInclude Include="src\Orbital\Events\MouseEvents.h" />
     <ClInclude Include="src\Orbital\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Orbital\Application.cpp" />
-    <ClCompile Include="src\Orbital\Events\MouseEvents.h" />
     <ClCompile Include="src\Orbital\Log.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

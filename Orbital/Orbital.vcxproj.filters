@@ -4,6 +4,9 @@
     <Filter Include="Orbital">
       <UniqueIdentifier>{32640DD6-9E43-8C71-A75B-174813BAF2D2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Orbital\Events">
+      <UniqueIdentifier>{D623E68C-C2F1-D992-AB85-4AB997F2B5F7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Orbital.h" />
@@ -16,12 +19,21 @@
     <ClInclude Include="src\Orbital\EntryPoint.h">
       <Filter>Orbital</Filter>
     </ClInclude>
+    <ClInclude Include="src\Orbital\Events\ApplicationEvents.h">
+      <Filter>Orbital\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Orbital\Events\Event.h">
+      <Filter>Orbital\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Orbital\Events\KeyEvent.h">
+      <Filter>Orbital\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Orbital\Events\MouseEvents.h">
+      <Filter>Orbital\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Orbital\Log.h">
       <Filter>Orbital</Filter>
     </ClInclude>
-    <ClInclude Include="src\Orbital\Events\Event.h" />
-    <ClInclude Include="src\Orbital\Events\ApplicationEvents.h" />
-    <ClInclude Include="src\Orbital\Events\KeyEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Orbital\Application.cpp">
@@ -30,6 +42,5 @@
     <ClCompile Include="src\Orbital\Log.cpp">
       <Filter>Orbital</Filter>
     </ClCompile>
-    <ClCompile Include="src\Orbital\Events\MouseEvents.h" />
   </ItemGroup>
 </Project>

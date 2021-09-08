@@ -25,10 +25,7 @@ project "Orbital"
 
 		defines { "ORBIT_PLATFORM_WINDOWS", "ORBIT_BUILD_DLL" }
 
-		postbuildcommands 
-		{
-			("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox") 
-		}
+		postbuildcommands { ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox") }
 
 	filter "configurations:Debug"
 		defines "ORBIT_DEBUG"
