@@ -4,16 +4,13 @@
 
 namespace Orbital {
 
-	Application::Application()
-	{
+	Application::Application() {
 	}
 
-	Application::~Application()
-	{
+	Application::~Application() {
 	}
 
-	void Application::RunApplication()
-	{
+	void Application::RunApplication() {
 		WindowResizeEvent e(1200, 600);
 		
 		if (e.IsInCategory(EventCategoryApplication)) {

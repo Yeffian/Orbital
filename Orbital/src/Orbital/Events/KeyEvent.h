@@ -36,8 +36,7 @@ namespace Orbital {
 		EVENT_CLASS_TYPE(KeyPressed)
 	};
 
-	class ORBITAL_API KeyReleasedEvent : public KeyEvent
-	{
+	class ORBITAL_API KeyReleasedEvent : public KeyEvent {
 	public:
 		KeyReleasedEvent(int keycode) : KeyEvent(keycode) {}
 

@@ -9,8 +9,7 @@ namespace Orbital {
 	std::shared_ptr<spdlog::logger> Log::client_logger;
 
 
-	void Log::InitLog()
-	{
+	void Log::InitLog() {
 		spdlog::set_pattern("%^[%T] %n: %v%$");
 
 		engine_logger = spdlog::stdout_color_mt("ORBITAL");

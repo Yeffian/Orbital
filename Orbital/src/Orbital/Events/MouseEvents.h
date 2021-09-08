@@ -33,8 +33,7 @@ namespace Orbital {
 		inline float GetXOffset() const { return xOffset; }
 		inline float GetYOffset() const { return yOffset; }
 
-		std::string ToString() const override
-		{
+		std::string ToString() const override {
 			std::stringstream ss;
 			ss << "MouseScrolledEvent: " << GetXOffset() << ", " << GetYOffset();
 			return ss.str();
@@ -61,8 +60,7 @@ namespace Orbital {
 		MouseButtonPressedEvent(int button)
 			: MouseButtonEvent(button) {}
 
-		std::string ToString() const override
-		{
+		std::string ToString() const override {
 			std::stringstream ss;
 			ss << "MouseButtonPressedEvent: " << button;
 			return ss.str();
@@ -77,8 +75,7 @@ namespace Orbital {
 		MouseButtonReleasedEvent(int button)
 			: MouseButtonEvent(button) {}
 
-		std::string ToString() const override
-		{
+		std::string ToString() const override {
 			std::stringstream ss;
 			ss << "MouseButtonReleasedEvent: " << button;
 			return ss.str();
